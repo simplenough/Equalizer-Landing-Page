@@ -1,0 +1,128 @@
+.hero {
+  background-image: url(../assets/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-size: 800px 800px;
+  background-position: bottom -40px right -300px;
+}
+
+.hero-container {
+  max-width: 375px;
+  margin: 0 auto 0 auto;
+  padding-left: 24px;
+}
+
+.hero-logo {
+  margin: 30px 0 0 0;
+}
+
+.hero-article {
+  margin: 64px 0 166px 0;
+}
+
+.hero-article-heading {
+  width: 266px;
+  margin-bottom: 20px;
+}
+
+.hero-article-p {
+  width: 327px;
+}
+
+.phone {
+  width: 100vw;
+  max-width: 375px;
+
+  margin: 0 auto;
+
+  background-color: var(--black);
+  border-radius: 10px;
+}
+
+.phone-app,
+.phone-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  width: 210px;
+  height: 430px;
+  position: absolute;
+  top: 550px;
+}
+
+.plan {
+  width: 100vw;
+  max-width: 375px;
+
+  margin: 0 auto;
+
+  position: relative;
+  top: -50px;
+
+  background-color: var(--dark-orange);
+  border-radius: 10px;
+}
+
+.plan-article {
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center; */
+  width: 302px;
+  margin: auto;
+  padding: 32px 0;
+}
+
+.body-3 {
+  width: 270px;
+  /* margin: 12px 0 50px 0; */
+
+  display: flex;
+  align-items: center;
+}
+
+.body-3-strong {
+  padding: 0 15px 0 5px;
+  color: var(--white);
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.button-black {
+  margin-bottom: 16px;
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.apple-icon,
+.android-icon {
+  padding-right: 8px;
+}
+
+.footer {
+  max-width: 375px;
+  margin: 10px auto 64px auto;
+  padding-left: 24px;
+}
+
+.logo-footer {
+  margin-bottom: 32px;
+}
+
+.email {
+  font-weight: 700;
+}
+
+.footer-icons {
+  width: 100px;
+
+  margin: 64px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* TODO design up to 500px then center rest until tablet size is reached */
