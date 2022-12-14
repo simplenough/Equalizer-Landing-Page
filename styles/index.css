@@ -66,24 +66,30 @@
 }
 
 .plan-article {
-  /* display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center; */
   width: 302px;
   margin: auto;
-  padding: 32px 0;
+  padding: 48px 0;
 }
 
-.body-3 {
+.plan-article-heading {
   width: 270px;
-  /* margin: 12px 0 50px 0; */
 
   display: flex;
   align-items: center;
+
+  color: var(--white);
 }
 
-.body-3-strong {
+.plan-article-p {
+  margin: 12px 0 36px 0;
+
+  display: flex;
+  align-items: center;
+
+  color: var(--white);
+}
+
+.plan-article-p--strong {
   padding: 0 15px 0 5px;
   color: var(--white);
   font-size: 65px;
@@ -107,11 +113,15 @@
   padding-left: 24px;
 }
 
-.logo-footer {
+.footer-logo {
   margin-bottom: 32px;
 }
 
-.email {
+.footer-article-p {
+  width: 327px;
+}
+
+.footer-article-email {
   font-weight: 700;
 }
 
@@ -124,5 +134,3 @@
   align-items: center;
   justify-content: space-between;
 }
-
-/* TODO design up to 500px then center rest until tablet size is reached */
