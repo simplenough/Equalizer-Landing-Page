@@ -34,22 +34,22 @@
 
   margin: 0 auto;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   background-color: var(--black);
   border-radius: 10px;
 }
 
-.phone-app,
-.phone-background {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.phone-app {
+  position: absolute;
+  top: 550px;
 }
 
 .app {
   width: 210px;
   height: 430px;
-  position: absolute;
-  top: 550px;
 }
 
 .plan {

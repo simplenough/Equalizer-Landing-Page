@@ -1,0 +1,129 @@
+@import url(./index.css);
+
+@media (min-width: 768px) {
+  .hero {
+    background-image: url(../assets/bg-main-tablet.png);
+    background-size: 1100px 1100px;
+    background-position: top -220px left -280px;
+  }
+
+  .hero-container {
+    max-width: 768px;
+    padding-left: 40px;
+  }
+
+  .hero-logo {
+    margin: 60px 0 0 0;
+  }
+
+  .hero-article {
+    margin: 95px 0 0 0;
+    padding-bottom: 249px;
+  }
+
+  .hero-article-heading {
+    width: 520px;
+    margin-bottom: 28px;
+  }
+
+  .hero-article-p {
+    width: 514px;
+  }
+
+  .phone {
+    max-width: 696px;
+    height: 600px;
+  }
+
+  .phone-app {
+    position: absolute;
+    top: 640px;
+    left: 95px;
+  }
+
+  .app {
+    width: 270px;
+    height: 556px;
+  }
+
+  .plan {
+    max-width: 399px;
+
+    top: -320px;
+    left: 85px;
+  }
+
+  /*
+  
+  
+  
+  .plan-article {
+    width: 302px;
+    margin: auto;
+    padding: 48px 0;
+  }
+  
+  .plan-article-heading {
+    width: 270px;
+  
+    display: flex;
+    align-items: center;
+  
+    color: var(--white);
+  }
+  
+  .plan-article-p {
+    margin: 12px 0 36px 0;
+  
+    display: flex;
+    align-items: center;
+  
+    color: var(--white);
+  }
+  
+  .plan-article-p--strong {
+    padding: 0 15px 0 5px;
+    color: var(--white);
+    font-size: 65px;
+    font-weight: 700;
+  }
+  
+  .button-black {
+    margin-bottom: 16px;
+    color: var(--white);
+    background-color: var(--black);
+  }
+  
+  .apple-icon,
+  .android-icon {
+    padding-right: 8px;
+  }
+  
+  .footer {
+    max-width: 375px;
+    margin: 10px auto 64px auto;
+    padding-left: 24px;
+  }
+  
+  .footer-logo {
+    margin-bottom: 32px;
+  }
+  
+  .footer-article-p {
+    width: 327px;
+  }
+  
+  .footer-article-email {
+    font-weight: 700;
+  }
+  
+  .footer-icons {
+    width: 100px;
+  
+    margin: 64px 0;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  } */
+}
