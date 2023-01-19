@@ -11,6 +11,7 @@
 
 .hero-container {
   max-width: 375px;
+
   margin: 0 auto 0 auto;
   padding-left: 24px;
 }
@@ -92,6 +93,7 @@
 
 .preview-plan-p {
   width: 310px;
+
   margin: 12px 0 36px 0;
 
   color: var(--white);
@@ -99,6 +101,7 @@
 
 .preview-plan-p--strong {
   padding: 0 15px 0 5px;
+
   color: var(--white);
   font-size: 65px;
   font-weight: 700;
@@ -106,6 +109,7 @@
 
 .button-black {
   margin-bottom: 16px;
+
   color: var(--white);
   background-color: var(--black);
 }
@@ -117,6 +121,7 @@
 
 .footer {
   max-width: 375px;
+
   margin: 20px auto 64px auto;
   padding-left: 24px;
 }

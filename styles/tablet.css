@@ -25,6 +25,7 @@
 
   .hero-container {
     max-width: 768px;
+
     padding-left: 40px;
   }
 
@@ -39,6 +40,7 @@
 
   .hero-article-heading {
     width: 520px;
+
     margin-bottom: 28px;
   }
 
@@ -89,6 +91,7 @@
 
   .footer {
     max-width: 696px;
+
     margin: 10px auto 64px auto;
     padding-left: 0;
 
