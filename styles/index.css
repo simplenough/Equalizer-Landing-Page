@@ -1,3 +1,8 @@
+body {
+  /* For the horizontal scroll issue */
+  overflow-x: hidden;
+}
+
 .pattern-1 {
   display: none;
 }
